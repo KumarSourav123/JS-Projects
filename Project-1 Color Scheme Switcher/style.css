@@ -1,0 +1,39 @@
+
+body{
+    height: 100vh;
+    background-color: white;
+    color:black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap:10px;
+    overflow: hidden;
+}
+#parent{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    gap:10px;
+
+}
+.myClass{
+    height: 150px;
+    width:150px;
+    border:2px solid black;
+}
+#one{
+    background-color: gray;
+}
+#two{
+    background-color: green;
+}
+#three{
+    background-color: blue;
+}
+#four{
+    background-color: yellow;
+}
+.heading{
+    text-align: center;
+    font-size: 40px;
+}

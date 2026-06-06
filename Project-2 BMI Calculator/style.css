@@ -1,0 +1,37 @@
+body{
+    color:black;
+    background-color: white;
+    margin: 0px;
+    padding: 0px;
+}
+
+.parent{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    gap:50px;
+}
+
+.heading{
+    text-decoration: underline;
+}
+
+#result{
+    font-size: 20px;
+    padding:5px 25px;
+    text-align: center;
+}
+
+#final{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:30px;
+}
+
+#show{
+    font-size: 20px;
+}

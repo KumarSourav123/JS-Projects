@@ -23,8 +23,8 @@ submitBtn.addEventListener('click',(e)=>{
         submitBtn.disabled = true;
     }
     else{
-        if(previousGuesses.length == 10){
-            message.innerText = "Game Over";
+        if(previousGuesses.length == 10-1){
+            message.innerText = `Game Over..the random number was ${myNum}`;
             input.disabled = true;
             submitBtn.disabled = true;
         }
